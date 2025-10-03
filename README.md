@@ -6,7 +6,7 @@ The dataset contains pedestrian images with corresponding masks and bounding box
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -22,7 +22,7 @@ The dataset contains pedestrian images with corresponding masks and bounding box
 
 ---
 
-## 🚀 Features
+## Features
 
 - Custom `PennFudanDataset` class for handling Penn-Fudan pedestrian dataset
 - Integration of additional objects via **mask parsing**
@@ -33,7 +33,7 @@ The dataset contains pedestrian images with corresponding masks and bounding box
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/pennfudan-fasterrcnn.git
@@ -45,7 +45,7 @@ pip install torch torchvision scikit-learn matplotlib pillow numpy
 
 ---
 
-## 📊 Usage
+## Usage
 
 ### Training & Evaluation
 Run the main script:
@@ -62,7 +62,7 @@ This will:
 
 ---
 
-## 📈 Results
+## Results
 
 - Model outputs **Average Precision (AP)** after evaluation
 - Precision–Recall curve is plotted
@@ -70,7 +70,7 @@ This will:
 
 ---
 
-## 🔍 Example Output
+## Example Output
 
 ### Precision-Recall Curve
 The script automatically displays a PR curve after evaluation.
@@ -84,14 +84,14 @@ Bounding boxes with confidence scores are drawn on test images:
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Supports GPU acceleration (`torch.device("cuda")`) if available.
 - Dataset must be placed under `Data/dataset/` with required subdirectories.
 
 ---
 
-## 📜 License
+## License
 
 MIT License. Free to use and modify.
 
